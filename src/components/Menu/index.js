@@ -14,7 +14,7 @@ const Menu = () => {
     const handleMenuClick = (itemName) => {
         dispatch(menuItemClick(itemName))
     }
-
+    //for download 
     const handleActioItemClick = (itemName) => {
         dispatch(actionItemClick(itemName))
     }
